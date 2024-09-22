@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Λίστα αγορών</string>
+    <string name="favorites">Αγαπημένα</string>
+    <string name="Add_to_cart">Προσθήκη στο καλάθι</string>
+    <string name="Go_to_cart">Καλάθι</string>
+    <string name="All_Products">Όλα τα προϊόντα</string>
+    <string name="Cart_items">Το καλάθι μου</string>
+    <string name="My_Favorites">Τα αγαπημένα μου</string>
+    <string name="Add_Item">Προσθήκη προϊόντος</string>
+    <string name="Title">Τίτλος προϊόντος</string>
+    <string name="Description">Περιγραφή προϊόντος</string>
+    <string name="Photo">Φωτογραφία προϊόντος</string>
+    <string name="Size">Μέγεθος προϊόντος</string>
+    <string name="Color">Χρώμα προϊόντος</string>
+    <string name="Quantity">Ποσότητα/Διαθεσιμότητα προϊόντος</string>
+    <string name="Price">Τιμή προϊόντος</string>
+    <string name="Discount">Έκπτωση προϊόντος</string>
+    <string name="Search_Items">Αναζήτηση...</string>
+</resources>

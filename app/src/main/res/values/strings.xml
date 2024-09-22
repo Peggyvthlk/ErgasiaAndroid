@@ -1,0 +1,20 @@
+<resources>
+    f
+    <string name="app_name">Shop List</string>
+    <string name="favorites">Favorites</string>
+    <string name="Add_to_cart">Add to cart</string>
+    <string name="Go_to_cart">Go to cart</string>
+    <string name="All_Products">All Products</string>
+    <string name="Cart_items">My cart</string>
+    <string name="My_Favorites">My Favorites</string>
+    <string name="Add_Item">Add Item</string>
+    <string name="Title">Enter the title</string>
+    <string name="Description">Enter the description</string>
+    <string name="Photo">Enter the photo</string>
+    <string name="Size">Enter the size</string>
+    <string name="Color">Enter the color</string>
+    <string name="Quantity">Enter the availability</string>
+    <string name="Price">Enter the price</string>
+    <string name="Discount">Enter the discount</string>
+    <string name="Search_Items">Search Items</string>
+</resources>

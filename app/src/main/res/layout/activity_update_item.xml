@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateItemActivity">
+    <TextView
+        android:id="@+id/editNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Edit Item."
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        />
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editNoteHeading"
+        android:layout_marginEnd="6dp"
+        />
+    <EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/editNoteHeading"
+        android:background="@drawable/orange_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/updateContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter the description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/updateTitleEditText"
+        android:layout_marginTop="12dp"
+        />
+    <!-- ImageView to display the selected image -->
+    <ImageView
+        android:id="@+id/UpdateSelectedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/updateContentEditText"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Selected Image"
+        android:background="@drawable/orange_border"
+        />
+
+    <!-- Button to trigger image selection -->
+    <ImageButton
+        android:id="@+id/UpdateSelectImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_image_24"
+        android:layout_below="@id/UpdateSelectedImageView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Select Image"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+    <EditText
+        android:id="@+id/UpdateSizeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the size"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/UpdateSelectImageButton"
+        android:layout_marginTop="12dp"
+        />
+    <EditText
+        android:id="@+id/UpdateColorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the color"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/UpdateSizeEditText"
+        android:layout_marginTop="12dp"
+        />
+    <EditText
+        android:id="@+id/UpdateAvailabilityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the availability"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/UpdateColorEditText"
+        android:layout_marginTop="12dp"
+        />
+    <EditText
+        android:id="@+id/UpdatePriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the price in $"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/UpdateAvailabilityEditText"
+        android:layout_marginTop="12dp"
+        />
+    <EditText
+        android:id="@+id/UpdateDiscountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the discount"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/orange_border"
+        android:layout_below="@+id/UpdatePriceEditText"
+        android:layout_marginTop="12dp"
+        />
+</RelativeLayout>
